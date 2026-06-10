@@ -3,6 +3,7 @@ package com.example.campsitecommander
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.LinearLayout
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -24,15 +25,20 @@ class DetailedView : ComponentActivity() {
         setContent {
             CampsiteCommanderTheme {
                 Column {
+
                     Button(onClick = { /*TODO*/ }) {
                         Text(text = "Full list")
-                        
+                        val intent = Intent(this@DetailedView, MainScreen::class.java)
+                        startActivity(intent)
 
                     }
                     Button(onClick = { /*TODO*/ }) {
                         Text(text = "Back to base")
                         val intent = Intent(this@DetailedView, MainScreen::class.java)
+                        startActivity(intent)
+
                     }
+
                 }
             }
         }

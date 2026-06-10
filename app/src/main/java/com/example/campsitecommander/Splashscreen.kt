@@ -21,7 +21,7 @@ class Splashscreen : ComponentActivity() {
         setContent {
             CampsiteCommanderTheme {
                 Text(text = "Campfire")
-
+                Toast length_3 seconds
 
             }
         }
