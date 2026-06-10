@@ -1,11 +1,15 @@
 package com.example.campsitecommander
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Button
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -19,7 +23,16 @@ class DetailedView : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CampsiteCommanderTheme {
-                
+                Column {
+                    Button(onClick = { /*TODO*/ }) {
+                        Text(text = "Full list")
+                        val intent = Intent(this@DetailedView, MainScreen::class.java)
+                    }
+                    Button(onClick = { /*TODO*/ }) {
+                        Text(text = "Back to base")
+                        val intent = Intent(this@DetailedView, MainScreen::class.java)
+                    }
+                }
             }
         }
     }
