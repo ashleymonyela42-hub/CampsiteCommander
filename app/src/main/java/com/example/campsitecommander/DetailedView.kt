@@ -26,6 +26,7 @@ class DetailedView : ComponentActivity() {
                 Column {
                     Button(onClick = { /*TODO*/ }) {
                         Text(text = "Full list")
+                        
 
                     }
                     Button(onClick = { /*TODO*/ }) {

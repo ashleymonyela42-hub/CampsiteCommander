@@ -24,19 +24,14 @@ class MainScreen : ComponentActivity() {
             CampsiteCommanderTheme {
                 Button(onClick = { /*TODO*/ }) {
                     Text(text = "Add gear")
+                    
                 }
-                var item = "Tent"
-                var category = "Shelter"
-                var quality = "1"
-                var comment = "4-person waterproof"
-                var item2 = "Marshmallows"
-                var category2 = "Food"
-                var quality2 = "3"
-                var comment2 = "For Mega size"
-                var item3 = "Flashlight"
-                var category3 = "Safety"
-                var quality3 = "2"
-                var comment3 = "Check batteries"
+                var item = "Tent, Marshmallow, Flashlight"
+                var category = "Shelter, Food, Safety"
+                var quality = "1, 3, 2"
+                var comment = "4-person waterproof, For mega size, Check batteries"
+
+                val totalitems = 3
 
             }
             setBackgroundColor("#0000")

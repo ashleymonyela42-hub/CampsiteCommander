@@ -19,29 +19,13 @@ class Results : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CampsiteCommanderTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+            val totalitems = intent.getIntExtra("totalitems", 0)
+                val item = intent.getStringExtra("item")
+                val category = intent.getStringExtra("category")
+                val quality = intent.getStringExtra("quality")
+                val comment = intent.getStringExtra("comment")
             }
         }
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    CampsiteCommanderTheme {
-        Greeting("Android")
-    }
-}
