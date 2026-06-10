@@ -26,7 +26,11 @@ class Results : ComponentActivity() {
                 val category = intent.getStringExtra("category")
                 val quantity = intent.getStringExtra("quality")
                 val comment = intent.getStringExtra("comment")
-                Button(onClick = { /*TODO*/ }) {
+               Button(
+                   onClick = {
+                       
+                   }
+               ) {
                     finishAffinity()
                     Text("Exit")
                 }

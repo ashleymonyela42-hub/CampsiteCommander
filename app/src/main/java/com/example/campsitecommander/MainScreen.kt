@@ -22,7 +22,11 @@ class MainScreen : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CampsiteCommanderTheme {
-                Button(onClick = { /*TODO*/ }) {
+               Button(
+                   onClick = {
+
+                   }
+               ) {
                     Text(text = "Add gear")
                     
                 }
