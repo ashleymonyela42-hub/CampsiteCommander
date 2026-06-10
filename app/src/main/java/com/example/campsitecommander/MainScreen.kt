@@ -32,7 +32,7 @@ class MainScreen : ComponentActivity() {
                 var item2 = "Marshmallows"
                 var category2 = "Food"
                 var quality2 = "3"
-                var comment2 = "For S'mores"
+                var comment2 = "For Mega size"
                 var item3 = "Flashlight"
                 var category3 = "Safety"
                 var quality3 = "3"
