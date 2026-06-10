@@ -12,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.Constraints
 import com.example.campsitecommander.ui.theme.CampsiteCommanderTheme
 
 class MainScreen : ComponentActivity() {
@@ -23,7 +24,21 @@ class MainScreen : ComponentActivity() {
                 Button(onClick = { /*TODO*/ }) {
                     Text(text = "Add gear")
                 }
-                
+                var item = "Tent"
+                var category = "Shelter"
+                var quality = "1"
+                var comment = "4-person waterproof"
+                var item2 = "Marshmallows"
+                var category2 = "Food"
+                var quality2 = "3"
+                var comment2 = "For S'mores"
+                var item3 = "Flashlight"
+                var category3 = "Safety"
+                var quality3 = "3"
+                var comment3 = "Check batteries"
+
+                }
+                    
             }
         }
     }
