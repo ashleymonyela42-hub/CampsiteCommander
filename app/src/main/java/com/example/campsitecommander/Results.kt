@@ -28,7 +28,7 @@ class Results : ComponentActivity() {
                 val comment = intent.getStringExtra("comment")
                Button(
                    onClick = {
-                       
+
                    }
                ) {
                     finishAffinity()
