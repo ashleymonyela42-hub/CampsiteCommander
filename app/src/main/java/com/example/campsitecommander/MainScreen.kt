@@ -35,14 +35,17 @@ class MainScreen : ComponentActivity() {
                 var comment2 = "For Mega size"
                 var item3 = "Flashlight"
                 var category3 = "Safety"
-                var quality3 = "3"
+                var quality3 = "2"
                 var comment3 = "Check batteries"
 
-                }
-
             }
+            setBackgroundColor("#0000")
 
         }
+
     }
+
+    fun setBackgroundColor(string: String) {}
+}
 
 
