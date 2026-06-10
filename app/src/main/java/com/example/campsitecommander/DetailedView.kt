@@ -27,7 +27,6 @@ class DetailedView : ComponentActivity() {
                 Column {
                     Button(
                         onClick = {
-
                         }
                     ) {
                         Text(text = "Full list")
@@ -37,7 +36,6 @@ class DetailedView : ComponentActivity() {
                     }
                     Button(
                         onClick = {
-
                         }
                     ) {
                         Text(text = "Back to base")
@@ -47,7 +45,6 @@ class DetailedView : ComponentActivity() {
                     }
                     Button(
                         onClick = {
-
                         }
                     ){
                         Text("Next")
