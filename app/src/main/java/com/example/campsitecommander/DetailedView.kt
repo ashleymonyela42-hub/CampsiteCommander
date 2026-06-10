@@ -25,7 +25,6 @@ class DetailedView : ComponentActivity() {
         setContent {
             CampsiteCommanderTheme {
                 Column {
-
                     Button(onClick = { /*TODO*/ }) {
                         Text(text = "Full list")
                         val intent = Intent(this@DetailedView, MainScreen::class.java)
@@ -37,6 +36,11 @@ class DetailedView : ComponentActivity() {
                         val intent = Intent(this@DetailedView, MainScreen::class.java)
                         startActivity(intent)
 
+                    }
+                    Button(onClick = { /*TODO*/ }) {
+                        Text("Next")
+                        val intent = Intent(this@DetailedView, Results::class.java)
+                        startActivity(intent)
                     }
 
                 }

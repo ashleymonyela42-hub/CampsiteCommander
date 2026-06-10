@@ -24,7 +24,7 @@ class Results : ComponentActivity() {
             val totalitems = intent.getIntExtra("totalitems", 0)
                 val item = intent.getStringExtra("item")
                 val category = intent.getStringExtra("category")
-                val quality = intent.getStringExtra("quality")
+                val quantity = intent.getStringExtra("quality")
                 val comment = intent.getStringExtra("comment")
                 Button(onClick = { /*TODO*/ }) {
                     finishAffinity()

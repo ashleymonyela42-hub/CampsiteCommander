@@ -28,7 +28,7 @@ class MainScreen : ComponentActivity() {
                 }
                 var item = "Tent, Marshmallow, Flashlight"
                 var category = "Shelter, Food, Safety"
-                var quality = "1, 3, 2"
+                var quantity = "1, 3, 2"
                 var comment = "4-person waterproof, For mega size, Check batteries"
 
                 val totalitems = 3
