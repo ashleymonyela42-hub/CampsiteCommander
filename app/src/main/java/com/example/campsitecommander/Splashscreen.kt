@@ -1,5 +1,6 @@
 package com.example.campsitecommander
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
@@ -21,7 +22,9 @@ class Splashscreen : ComponentActivity() {
         setContent {
             CampsiteCommanderTheme {
                 Text(text = "Campfire")
-                Toast length_3 seconds
+                Toast.LENGTH_SHORT
+                val intent = Intent(this@Splashscreen, MainScreen::class.java)
+
 
             }
         }
